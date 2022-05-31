@@ -41,3 +41,13 @@ const rta3 =  orders.map (item => {
 
 console.log('rta3', rta3);
 console.log('original', orders);
+
+const resp4 = orders.map(item => {
+    return {
+        ...item,
+        total: item.total + 5,
+        //Sumar a una propiedad creando un nuevo array.
+    };
+});
+console.log('Resp4:', resp4);
+console.log('Original:', orders);
