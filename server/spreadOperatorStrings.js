@@ -1,3 +1,5 @@
-¿Qué imprime este código JavaScript?
-Basiccristian-fernando-villca-gutie
+// ¿Qué imprime este código JavaScript?
+
 console.log([...'Oscar']);
+
+
